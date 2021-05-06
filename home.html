@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Fitness website</title>
+</head>
+<body>
+  <section class="first" width="100%">
+    <header>
+      <h2 class="fit">Fitness</h2>
+      <div class="toggle"></div>
+    </header>
+      <video src="ewb.mp4" muted loop autoplay></video>
+
+      <div class="overlay"></div>
+    
+      <div class="text">
+        <h2>Mind Alerting Fitness.</h2>
+        <h3>From Tired to Inspired-one more rep.</h3>
+        <p> This gym offers offers individual and personalized workout plans to its members.With every class comes increased confidence and strength, so we encourage first timers to go at their own pace and have fun.</p>
+        <a class="explore" href="#"target="_self">Go there</a>
+        <a  class="new"href="#" target="_self">New to Community?</a>
+
+      </div>
+      <ul class="social">
+        <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+        <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+        <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+      </ul>
+
+    </header>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Request Demo</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <script>
+    const mt=document.querySelector('.toggle')
+    const first=document.querySelector('.first')
+    mt.addEventListener('click',()=>{
+      mt.classList.toggle('active')
+      first.classList.toggle('active')
+    })
+  </script>
+</body>
+</html>
